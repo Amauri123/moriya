@@ -1,0 +1,344 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:c="http://xmlns.jcp.org/jsp/jstl/core"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:p="http://primefaces.org/ui">
+    <ui:composition template="/WEB-INF/template/mestre.xhtml">
+        
+        <!--
+         NOTA: para capturar o caminho relativo do projeto, usa-se:
+            #[request.contextPath}/<DIRETORIO>/..
+        -->
+        <ui:define name="centro">
+            <div class="conteudo">
+					<ui:include src="../WEB-INF/template/menu.xhtml"/>
+					
+					<div id="msgInfo"></div>
+					
+					<section id="intro" class="slidepage image-background">
+			        <div class="bgWrap dimBg patternBg">
+			          <div class="container">
+			            
+			              <div class="col-md-10 col-md-offset-1 vertical-center">
+			                <div class="text-center margin-offset animated bounceInDown">
+			                    <div class="special-element center"><span></span></div>
+			                    <h2>Açaiteria</h2>
+			                    <h1>MORIYA</h1>
+			                    <p>
+			                      <a class="btn scroll" href="#textcontent">Descubra</a>
+			                    </p>
+			                  
+			                </div>
+			              </div>
+			              <a class="scrolldown scroll btn-scroll" href="#textcontent"><span class="fa fa-arrow-down"></span></a>
+			            
+			          </div>
+			        </div>
+			      </section>
+				      
+			      <section id="textcontent" class="slidepage image-background">
+			        <div class="bgWrap dimBg patternBg">
+			          <div class="container">
+			            
+			              <div class="col-md-10 col-md-offset-2">
+			                <div class="content wow slideInUp animated" data-wow-duration="0.6s">
+			                  <div class="special-element"><span></span></div>
+			                  <h1>VISÃO</h1>
+			                  <div class="row">
+			                    <div class="col-md-3 col-sm-3 col-lg-2">
+			                      <span class="big-icon fa fa-desktop"></span>
+			                    </div>
+			                    <div class="col-md-9 col-sm-9 col-lg-10">
+			                      <p>
+			                      <strong>
+			                      A proposta de trazer um novo conceito ao mercado automotivo de Brasília, 
+			                      com produtos de alta qualidade e inovação nos serviços, foi determinante para a criação da empresa. 
+			                      Desde a nossa fundação, mais de uma década se passou. A primeira loja, aberta em Taguatinga, 
+			                      superou expectativas e teve seus horizontes ampliados. 
+			                      </strong>
+			                      </p>
+			                      <p>
+			                      <strong>
+			                      Trouxemos novos produtos e excelência em padrão de atendimento. 
+			                      Nossa empresa busca a satisfação de cada cliente e está atenta à importância das necessidades de cada motor. 
+			                      Por isso, mantemos desde o início de nossas atividades, um compromisso multimarcas. 
+			                      </strong>
+			                      </p>
+			                    </div>
+			                  </div>
+			                  <!-- 
+			                  <h2>Two theme variations</h2>
+			                  <p>
+			                    Template is available in 2 variations. First variation with background images and second with colour gradients. You can choose which one fit for you better, or you can simple change colors and gradients in less file. Or you can change provided images with your own.
+			                     
+			                  </p>
+			                  <a href="#" class="btn" data-toggle="modal" data-target="#modalText">READ MORE</a>
+			                  -->
+			                  <!--
+			                  <a href="#" class="btn btn-lg">READ MORE</a>
+			                  <a href="#" class="btn btn-sm">READ MORE</a>
+			                  <a href="#" class="btn btn-xs">READ MORE</a>
+			                -->
+			                </div>
+			              </div>
+			              <a class="scrolldown scroll btn-scroll" href="#grid"><span class="fa fa-arrow-down"></span></a>
+			            
+			          </div>
+			        </div>
+			      </section>
+			      
+			     <section id="grid" class="slidepage image-background">
+			        <div class="bgWrap dimBg patternBg">
+			          <div class="container">
+			            
+			              <div class="col-md-10 col-md-offset-2">
+			                <div class="content">
+			                  <div class="special-element"><span></span></div>
+			                  <h1>SERVIÇOS</h1>
+			
+			                  <div class="row grid-row">
+			                    <div class="wow fadeInLeft animated">
+			                      <div class="col-md-1 col-sm-1 col-xs-3">
+			                      	<!-- 
+			                        <span class="small-icon fa fa-rocket"></span>
+			                      	 -->
+			                      	 <img src="assets/img/beauty/pneuBranco64.png"/>
+			                      </div>
+			                      <div class="col-md-4 col-sm-5 col-xs-9">
+			                        <h4>Desempeno de Rodas</h4>
+			                        <!-- 
+			                        <p>Dos benefícios que você adquiri ao suplementar sua alimentação</p>
+			                         -->
+			                      </div>
+			                    </div>
+			                    <div class="wow fadeInRight animated" data-wow-delay="0.2s">
+			                      <div class="col-md-1 col-md-offset-1 col-sm-1 col-xs-3">
+			                      	<!-- 
+			                        <span class="small-icon fa fa-arrows-alt"></span>
+			                      	-->
+			                      	<img src="assets/img/beauty/suspensao64.png"/>
+			                      </div>
+			                      <div class="col-md-4 col-sm-5 col-xs-9">
+			                        <h4>Troca de Óleo</h4>
+			                        <!-- 
+			                        <p>Se exercitar é importante, mas controlar sua alimentação é essencial</p>
+			                        -->
+			                      </div>
+			                    </div>
+			                  </div>
+			
+			                  <div class="row grid-row">
+			                    <div class="wow fadeInLeft animated" data-wow-delay="0.4s">
+			                      <div class="col-md-1 col-sm-1 col-xs-3">
+			                      	<!-- 
+			                        <span class="small-icon fa fa-th-large"></span>
+			                      	 -->
+			                      	 <img src="assets/img/beauty/injecao64.png"/>
+			                      </div>
+			                      <div class="col-md-4 col-sm-5 col-xs-9">
+			                        <h4>Injeção Eletrônica</h4>
+			                        <!-- 
+			                        <p>Como posso preparar minha alimentação com meus objetivos?</p>
+			                         -->
+			                      </div>
+			                    </div>
+			                    <div class="wow fadeInRight animated" data-wow-delay="0.6s">
+			                      <div class="col-md-1 col-md-offset-1 col-sm-1 col-xs-3">
+			                      	<!-- 
+			                        <span class="small-icon fa fa-puzzle-piece"></span>
+			                      	-->
+			                        <img src="assets/img/beauty/pistao64.png"/>	
+			                      </div>
+			                      <div class="col-md-4 col-sm-5 col-xs-9">
+			                        <h4>Manutenção de Motores</h4>
+			                      </div>
+			                    </div>
+			                  </div>
+			
+			                </div>
+			              </div>
+			            
+			            <a class="scrolldown scroll btn-scroll" href="#carousel"><span class="fa fa-arrow-down"></span></a>
+			
+			          </div>
+			        </div>
+			      </section>
+			      
+			      <section id="carousel" class="slidepage image-background">
+			        <div class="bgWrap dimBg patternBg">
+			          <div class="container">
+			            
+			              <div class="col-md-10 col-md-offset-2">
+			                <div class="content">
+			                  <div class="special-element"><span></span></div>
+			                  <h1>PENSAMOS EM VOCÊ!</h1>
+			
+			                  <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+			                    <!-- Indicators -->
+			                    <ol class="carousel-indicators">
+			                      <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+			                      <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+			                      <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+			                    </ol> 
+			
+			                    <!-- Wrapper for slides -->
+			                    <div class="carousel-inner">
+			                      <div class="item active col-md-12">
+			                        <div class="col-xs-8 col-xs-offset-2 carousel-caption">
+			                          <span class="big-icon fa fa-car"></span>
+			                          <h3>Nosso foco</h3>
+			                          <p>Trabalhar com mais sinceridade possível, procurando a sua satisfação.
+			                          </p>
+			                        </div>
+			                      </div>
+			                      <div class="item">
+			                        <div class="col-xs-8 col-xs-offset-2 carousel-caption">
+			                          <span class="big-icon fa fa-cloud"></span>
+			                          <h3>Antenando as ideias</h3>
+			                          <p>Buscando inovações e melhorias ao seu veículo.</p>
+			                        </div>
+			                      </div>
+			                      <div class="item">
+			                        <div class="col-xs-8 col-xs-offset-2 carousel-caption">
+			                          <span class="big-icon fa fa-desktop"></span>
+			                          <h3>Visite-nos e dê sua opinião</h3>
+			                          <p>Críticas, sugestões e reclamações sempre são bem vindas.</p>
+			                        </div>
+			                      </div>
+			                    </div>
+			
+			                    <!-- Controls -->
+			                    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+			                      <span class="glyphicon glyphicon-chevron-left"></span>
+			                    </a>
+			
+			                    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+			                      <span class="glyphicon glyphicon-chevron-right"></span>
+			                    </a>
+			                  </div>
+			                </div>
+			              </div>
+			
+			              <a class="scrolldown scroll btn-scroll" href="#gallery"><span class="fa fa-arrow-down"></span></a>
+			            
+			          </div>
+			        </div>
+			      </section>
+			      
+			      <section id="gallery" class="slidepage image-background">
+			        <div class="bgWrap dimBg patternBg">
+			          <div class="container">
+			            
+		              <div class="col-md-10 col-md-offset-2">
+		                <div class="content">
+		                  <div class="special-element"><span></span></div>
+		                    <h1>DESTAQUE DO MÊS</h1>
+			                
+		                    <div class="gallery-items clearfix">
+			                  <c:forEach var="produto" items="#{produtoMB.listaDestaque}">
+			                  	<a class="col-xs-6 col-md-4 gallery-item" data-groups='["all", "web-design"]' href="#" data-toggle="modal" data-target="#modalImage" data-image-url="#{produto.srcImagemModal}">
+			                        <div class="image-info">
+			                          <h2>#{produto.titulo}</h2>
+			                          <h3>#{produto.descritivo}</h3>
+			                          <span class="more fa fa-expand"></span>
+			                        </div>
+			                        <!-- tmp/img-286x215-1.jpg -->
+			                        <img src="#{produto.srcImagem}" width="286" height="215" class="img-responsive" />
+		                      	</a>
+			                  </c:forEach>
+		 					</div>
+		                </div>	
+	                </div>
+		            <a class="scrolldown scroll btn-scroll" href="#contact"><span class="fa fa-arrow-down"></span></a>
+	
+                	</div>
+	              </div>
+				</section>
+			      <!-- 
+			       
+			      <section id="carousel-2" class="slidepage image-background">
+			        <div class="bgWrap dimBg patternBg">
+			          <div class="container">
+			            
+			              <div class="col-md-10 col-md-offset-2">
+			                <div class="content">
+			                  <div class="special-element"><span></span></div>
+			                  <h1>LANÇAMENTOS TESET </h1>
+			
+			                  <div id="owl-example" class="carousel-items clearfix owl-carousel">
+			                  	<c:forEach var="produto" items="#{produtoMB.listaLancamento}">
+				                    <div class="carousel-item">
+				                      <img src="#{produto.srcImagem}" width="286" height="215" class="img-responsive" />
+				                      <div class="item-info">
+				                        <h2>#{produto.titulo}</h2>
+				                        <h3>- #{produto.descritivo} -</h3>
+				                      </div>
+				                    </div>
+			                    </c:forEach>
+			                  </div>
+			                </div>
+			              </div>
+			
+			              <a class="scrolldown scroll btn-scroll" href="#gallery"><span class="fa fa-arrow-down"></span></a>
+			            
+			          </div>
+			        </div>
+			      </section>
+			      -->
+			      
+			      <section id="contact" class="slidepage image-background">
+			        <div class="bgWrap dimBg patternBg">
+			          <div class="container">
+			            
+			              <div class="col-md-10 col-md-offset-2">
+			                <div class="content">
+			                  <div class="special-element"><span></span></div>
+			                  <h1>FALE CONOSCO <small>Acredite, é importante!</small></h1>
+			
+			                  <div class="row">
+			                    <div class="col-md-3 col-sm-4 col-text-right">
+			                      <address>
+			                        CND 5 Lote 11 Loja 04 St. A - Taguatinga Norte/DF<br/>
+			                        <br/>
+			                        <abbr title="Phone">(61) 3354-1557 </abbr><br/>
+			                        marcondesomega@gmail.com<br/>
+			                      </address>
+			                    </div>
+			                    <div class="col-md-8 col-sm-8">
+			                      <h:form class="js-contact-form" role="form" method="post" >
+			                      <p:growl id="growl" showDetail="true" sticky="false" life="8000"/>
+			                        <div class="form-group name">
+			                          <h:inputText class="form-control name" id="nome" placeholder="Nome..." 
+			                          	value="#{clienteMB.cliente.nome}"/>
+			                          <!-- <span class="form-error">please enter name</span> -->
+			                        </div>
+			                        <div class="form-group email">
+			                          <h:inputText class="form-control email" id="email" placeholder="E-mail..." 
+			                          	value="#{clienteMB.cliente.email}"/>
+			                        </div>
+			                        <div class="form-group message">
+			                          <h:inputTextarea id="mensagem" class="form-control message" rows="4" placeholder="mensagem" 
+			                          	value="#{clienteMB.cliente.mensagem}"></h:inputTextarea>
+			                          <!-- <span class="form-error">please enter message</span> -->
+			                        </div>
+			                        
+			                        <h:commandLink action="#{clienteMB.enviarNotificacao}" class="btn btn-default">ENVIAR</h:commandLink>
+			                      </h:form>	
+			                    </div>
+			                  </div>
+			                </div>
+			              </div>
+			
+			              <a class="scrolldown scroll btn-scroll" href="#intro"><span class="fa fa-arrow-up"></span></a>
+			            
+			          </div>
+			        </div>
+			      </section>
+				      
+            </div>
+        </ui:define>
+    </ui:composition>
+</html>

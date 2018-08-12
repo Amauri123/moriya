@@ -11,7 +11,7 @@ public class Constantes {
     public static String INICIO_SISTEMA = "/index.xhtml";
     public static String HOST_NAME_GMAIL = "smtp.gmail.com";
     public static String HOST_NAME_HOTMAIL = "smtp.live.com";
-    public static String ADMINISTRADOR_1 = "juniorots@gmail.com";
+    public static String ADMINISTRADOR_1 = "amauricabal2002@gmail.com";
     public static Integer PORTA_SMTP_GMAIL = 465;
 //    public static Integer PORTA_SMTP_GMAIL = 587;
 

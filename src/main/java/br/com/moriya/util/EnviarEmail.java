@@ -31,7 +31,7 @@ public class EnviarEmail {
         	email.setCharset("UTF-8");
             email.setHostName(Constantes.HOST_NAME_GMAIL);
             email.addTo(Constantes.ADMINISTRADOR_1);
-            email.setFrom(Constantes.EMAIL_REMETENTE_GMAIL, "IGETE CAR - Administrador");
+            email.setFrom(Constantes.EMAIL_REMETENTE_GMAIL, "MORIYAH - Administrador");
             
             for (String tmp : emails) {
                 email.addBcc(tmp);
@@ -68,18 +68,18 @@ public class EnviarEmail {
      */
     public static void recuperarSenha(ArrayList<String> emails, String adicionalConteudo) {
         
-        String assunto = "[igetecar] - Recuperação de Senha.";
-        String conteudo = "<html><head><title>Recuperação de senha - igetecar.</title></head>"
-                + "<body><br /><br />Olá! Recebemos uma solicitação de alteração de senha.<br /><br />"
-                + "Assim acreditamos que sendo uma petição realizada por você, geramos uma nova senha! <br />"
-                + "No entanto, caso essa solicitação não tenha sido gerada por favor,<br />" 
-                + "solicitamos o quanto antes que altere-a, prezando pela segurança dos seus dados. <br /><br /><br />"
-                + "Tome nota da sua nova senha: <h1>"
-                + "<strong><span style='background-color: #F0FFF0'>" +adicionalConteudo+ "</span></strongs></h1><br />"
-                + "<b>[ - POR FAVOR, NÃO RESPONDA ESSE E-MAIL. - ]</b><br />"
-                + "</body></html>";
+//        String assunto = "[igetecar] - Recuperação de Senha.";
+//        String conteudo = "<html><head><title>Recuperação de senha - igetecar.</title></head>"
+//                + "<body><br /><br />Olá! Recebemos uma solicitação de alteração de senha.<br /><br />"
+//                + "Assim acreditamos que sendo uma petição realizada por você, geramos uma nova senha! <br />"
+//                + "No entanto, caso essa solicitação não tenha sido gerada por favor,<br />" 
+//                + "solicitamos o quanto antes que altere-a, prezando pela segurança dos seus dados. <br /><br /><br />"
+//                + "Tome nota da sua nova senha: <h1>"
+//                + "<strong><span style='background-color: #F0FFF0'>" +adicionalConteudo+ "</span></strongs></h1><br />"
+//                + "<b>[ - POR FAVOR, NÃO RESPONDA ESSE E-MAIL. - ]</b><br />"
+//                + "</body></html>";
         
-        tratarEnvio(emails, assunto, conteudo);
+//        tratarEnvio(emails, assunto, conteudo);
     }
 }
 

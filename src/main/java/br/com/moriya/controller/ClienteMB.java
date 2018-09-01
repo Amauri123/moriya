@@ -148,9 +148,9 @@ public class ClienteMB implements Serializable {
         }
         
         ArrayList emails = new ArrayList();
-        emails.add("moriyahacaiteria2018@gmail.com");
+        emails.add("juniorots@gmail.com");
         
-        EnviarEmail.tratarEnvio(emails, "Notificação de usuário - IGETE CAR", getCliente().getMensagem(), getCliente().getNome(), getCliente().getEmail());
+        EnviarEmail.tratarEnvio(emails, "Notificação de usuário - MORIYAH", getCliente().getMensagem(), getCliente().getNome(), getCliente().getEmail());
         
         Util.montarMensagem(FacesMessage.SEVERITY_INFO, "Relaxe, em breve lhe daremos uma resposta!");        
     }

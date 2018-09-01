@@ -26,12 +26,12 @@
       <property name="hibernate.show_sql" value="true"/>
             
       <!-- 
-       -->
       <property name="hibernate.dialect" value="org.hibernate.dialect.PostgreSQLDialect"/>
       <property name="hibernate.connection.driver_class" value="org.postgresql.Driver"/>
       <property name="hibernate.connection.url" value="jdbc:postgresql://localhost:5432/moriya"/>
       <property name="hibernate.connection.username" value="moriya"/>
       <property name="hibernate.connection.password" value="ablife"/>
+       -->
       
       <!--
       <property name="hibernate.hbm2ddl.auto" value="create-drop"/>
@@ -45,12 +45,12 @@
        -->
        
       <!-- Postgres - REMOTO 
+      -->
       <property name="hibernate.connection.driver_class" value="org.postgresql.Driver"/>
       <property name="hibernate.dialect" value="org.hibernate.dialect.PostgreSQLDialect"/>
-      <property name="hibernate.connection.url" value="jdbc:postgresql://45.62.231.8:5432/igetecar"/>
-      <property name="hibernate.connection.username" value="igete"/>
-      <property name="hibernate.connection.password" value="1g3t3c4578iuqpe"/>
-      -->
+      <property name="hibernate.connection.url" value="jdbc:postgresql://45.62.231.8:5432/moriyah"/>
+      <property name="hibernate.connection.username" value="moriyah"/>
+      <property name="hibernate.connection.password" value="ljasdfy9qweh654674qwe46a4sfd"/>
       
       <!--
         <property name="hibernate.connection.username" value="USUARIO"/>

@@ -11,7 +11,7 @@ public class Constantes {
     public static String INICIO_SISTEMA = "/index.xhtml";
     public static String HOST_NAME_GMAIL = "smtp.gmail.com";
     public static String HOST_NAME_HOTMAIL = "smtp.live.com";
-    public static String ADMINISTRADOR_1 = "amauricabal2002@gmail.com";
+    public static String ADMINISTRADOR_1 = "alvarovasconcelos60@gmail.com";
     public static Integer PORTA_SMTP_GMAIL = 465;
 //    public static Integer PORTA_SMTP_GMAIL = 587;
 
@@ -29,8 +29,8 @@ public class Constantes {
     */
 //    public static String EMAIL_REMETENTE_GMAIL = "dedoduro.default.user@gmail.com";
 //    public static String SENHA_REMETENTE_GMAIL = "d3d0Dur0123";
-    public static String EMAIL_REMETENTE_GMAIL = "igetecar2@gmail.com";
-    public static String SENHA_REMETENTE_GMAIL = "12igetecar@de34";
+    public static String EMAIL_REMETENTE_GMAIL = "moriyaacaiteria@gmail.com";
+    public static String SENHA_REMETENTE_GMAIL = "morais123";
     
     /**
      * Uteis em threads

@@ -84,14 +84,14 @@ public class ProdutoDAOTest {
       prod4.setTipo(EnumTipoProduto.PRODUTO_DESTAQUE.getTipo());
       dao.insert(prod4);
 //      
-//      Produto prod5 = new Produto();   
-//      
-//      prod5.setSrcImagem("tmp/acaichocolate.png");
-//      prod5.setSrcImagemModal("tpm/acaichocolateMODAL.png");
-//      prod5.setTitulo("Gostoso para comer com amigos");
-//      prod5.setDescritivo("Chame seus amigos");
-//      prod5.setTipo(EnumTipoProduto.PRODUTO_DESTAQUE.getTipo());
-//      dao.insert(prod5);
+      Produto prod5 = new Produto();   
+      
+      prod5.setSrcImagem("tmp/meninaAcai.png");
+      prod5.setSrcImagemModal("tmp/meninaAcaiMODAL.png");
+      prod5.setTitulo("Alegria da meninada");
+      prod5.setDescritivo("Sucesso para as crianças");
+      prod5.setTipo(EnumTipoProduto.PRODUTO_DESTAQUE.getTipo());
+      dao.insert(prod5);
 //      
 //      Produto prod6 = new Produto();   
 //      

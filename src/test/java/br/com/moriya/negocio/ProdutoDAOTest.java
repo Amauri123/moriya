@@ -50,53 +50,46 @@ public class ProdutoDAOTest {
       Produto prod = new Produto();    
       ProdutoDAO dao = new ProdutoDAO(entityManager);
 //      
-      prod.setSrcImagem("tmp/igeteFigura01_286x215.png");
-      prod.setSrcImagemModal("tmp/igeteFigura01_640x480.png");
-      prod.setTitulo("Operação Igete");
-      prod.setDescritivo("Dia de manutenção");
+      prod.setSrcImagem("tmp/copoMoriyah.png");
+      prod.setSrcImagemModal("tmp/copoMoriyahMODAL.png");
+      prod.setTitulo("Nossas delícias");
+      prod.setDescritivo("Venha conferir");
       prod.setTipo(EnumTipoProduto.PRODUTO_DESTAQUE.getTipo());
       dao.insert(prod);      
       
-//      prod.setSrcImagem("tmp/img-286x215-1.jpg");
-//      prod.setSrcImagemModal("tmp/img-640x480-1.jpg");
-//      prod.setTitulo("Produto 01");
-//      prod.setDescritivo("Descritivo 01");
-//      prod.setTipo(EnumTipoProduto.PRODUTO_DESTAQUE.getTipo());
-//      dao.insert(prod);      
-      
       Produto prod2 = new Produto();   
       
-      prod2.setSrcImagem("tmp/igeteFigura02_286x215.jpg");
-      prod2.setSrcImagemModal("tmp/igeteFigura02_640x480.jpg");
-      prod2.setTitulo("Destaque Igete");
-      prod2.setDescritivo("Outro ângulo");
+      prod2.setSrcImagem("tmp/barcaMulher.png");
+      prod2.setSrcImagemModal("tmp/barcaMulherMODAL.png");
+      prod2.setTitulo("Barca Moriyah");
+      prod2.setDescritivo("Especialidade");
       prod2.setTipo(EnumTipoProduto.PRODUTO_DESTAQUE.getTipo());
       dao.insert(prod2);      
+////      
+      Produto prod3 = new Produto();   
+      
+      prod3.setSrcImagem("tmp/lojaMoriya.png");
+      prod3.setSrcImagemModal("tmp/lojaMoriyaMODAL.png");
+      prod3.setTitulo("Nossa casa, sua casa!");
+      prod3.setDescritivo("Estamos lhe esperando.");
+      prod3.setTipo(EnumTipoProduto.PRODUTO_DESTAQUE.getTipo());
+      dao.insert(prod3);
 //      
-//      Produto prod3 = new Produto();   
-//      
-//      prod3.setSrcImagem("tmp/img-286x215-3.jpg");
-//      prod3.setSrcImagemModal("tmp/img-640x480-3.jpg");
-//      prod3.setTitulo("Produto 03");
-//      prod3.setDescritivo("Descritivo 03");
-//      prod3.setTipo(EnumTipoProduto.PRODUTO_DESTAQUE.getTipo());
-//      dao.insert(prod3);
-//      
-//      Produto prod4 = new Produto();   
-//      
-//      prod4.setSrcImagem("tmp/img-286x215-4.jpg");
-//      prod4.setSrcImagemModal("tmp/img-640x480-4.jpg");
-//      prod4.setTitulo("Produto 04");
-//      prod4.setDescritivo("Descritivo 04");
-//      prod4.setTipo(EnumTipoProduto.PRODUTO_DESTAQUE.getTipo());
-//      dao.insert(prod4);
+      Produto prod4 = new Produto();   
+      
+      prod4.setSrcImagem("tmp/acai64.png");
+      prod4.setSrcImagemModal("tmp/acai64MODAL.png");
+      prod4.setTitulo("Açai com adicionais");
+      prod4.setDescritivo("De sua preferência");
+      prod4.setTipo(EnumTipoProduto.PRODUTO_DESTAQUE.getTipo());
+      dao.insert(prod4);
 //      
 //      Produto prod5 = new Produto();   
 //      
-//      prod5.setSrcImagem("tmp/img-286x215-5.jpg");
-//      prod5.setSrcImagemModal("tmp/img-640x480-5.jpg");
-//      prod5.setTitulo("Produto 05");
-//      prod5.setDescritivo("Descritivo 05");
+//      prod5.setSrcImagem("tmp/acaichocolate.png");
+//      prod5.setSrcImagemModal("tpm/acaichocolateMODAL.png");
+//      prod5.setTitulo("Gostoso para comer com amigos");
+//      prod5.setDescritivo("Chame seus amigos");
 //      prod5.setTipo(EnumTipoProduto.PRODUTO_DESTAQUE.getTipo());
 //      dao.insert(prod5);
 //      
